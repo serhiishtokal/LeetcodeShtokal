@@ -26,3 +26,25 @@ public class Solution
         throw new Exception();
     }
 }
+
+public class Solution2
+{
+    public int[] TwoSum(int[] nums, int target)
+    {
+        var dictionary = new Dictionary<int,int>();
+
+        for (int i = 0; i < nums.Length; i++)
+        {
+            var x = target - nums[i];
+
+            if (dictionary.ContainsKey(x))
+            {
+                return new int[] { dictionary[x], i };
+            }
+
+            dictionary.TryAdd(nums[i], i);
+        }
+
+        throw new Exception();
+    }
+}
