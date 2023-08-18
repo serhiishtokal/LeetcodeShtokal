@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "217ContainsDuplicate", "217ContainsDuplicate\217ContainsDuplicate.csproj", "{4EF9065E-FD39-4502-9429-44118B75C0B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "217ContainsDuplicate", "217ContainsDuplicate\217ContainsDuplicate.csproj", "{4EF9065E-FD39-4502-9429-44118B75C0B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "242ValidAnagram", "242ValidAnagram\242ValidAnagram.csproj", "{B7E3BB58-91F1-4BA3-865B-DAA87EA4F064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "242ValidAnagram", "242ValidAnagram\242ValidAnagram.csproj", "{B7E3BB58-91F1-4BA3-865B-DAA87EA4F064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1TwoSum", "1TwoSum\1TwoSum.csproj", "{313F2285-AC22-47FE-9144-216D1EC92546}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1TwoSum", "1TwoSum\1TwoSum.csproj", "{313F2285-AC22-47FE-9144-216D1EC92546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "49GroupAnagrams", "49GroupAnagrams\49GroupAnagrams.csproj", "{54B37018-4E4B-459B-A44B-51D5E1B4380D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{313F2285-AC22-47FE-9144-216D1EC92546}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{313F2285-AC22-47FE-9144-216D1EC92546}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{313F2285-AC22-47FE-9144-216D1EC92546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B37018-4E4B-459B-A44B-51D5E1B4380D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B37018-4E4B-459B-A44B-51D5E1B4380D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B37018-4E4B-459B-A44B-51D5E1B4380D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B37018-4E4B-459B-A44B-51D5E1B4380D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
