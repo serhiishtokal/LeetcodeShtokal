@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "217ContainsDuplicate", "217ContainsDuplicate\217ContainsDuplicate.csproj", "{4EF9065E-FD39-4502-9429-44118B75C0B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "242ValidAnagram", "242ValidAnagram\242ValidAnagram.csproj", "{B7E3BB58-91F1-4BA3-865B-DAA87EA4F064}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4EF9065E-FD39-4502-9429-44118B75C0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EF9065E-FD39-4502-9429-44118B75C0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EF9065E-FD39-4502-9429-44118B75C0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E3BB58-91F1-4BA3-865B-DAA87EA4F064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E3BB58-91F1-4BA3-865B-DAA87EA4F064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E3BB58-91F1-4BA3-865B-DAA87EA4F064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E3BB58-91F1-4BA3-865B-DAA87EA4F064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
