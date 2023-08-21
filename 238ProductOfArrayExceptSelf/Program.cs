@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 
 var numbers = new int[] { -1, 1, 0, -3, 3 };
-var solution = new Solution();
+var solution = new Solution2();
 var result = solution.ProductExceptSelf(numbers);
 string resultJson = JsonSerializer.Serialize(result);
 Console.WriteLine(resultJson);
@@ -21,7 +21,7 @@ public class Solution
             if (numbers[i] == 0)
             {
                 countOfZeros++;
-                if(countOfZeros >= 2)
+                if (countOfZeros >= 2)
                 {
                     return Enumerable.Repeat(0, numbers.Length).ToArray();
                 }
@@ -46,6 +46,25 @@ public class Solution
         for (int i = 0; i < numbers.Length; i++)
         {
             result[i] = product / numbers[i];
+        }
+
+        return result;
+    }
+}
+
+public class Solution2
+{
+    public int[] ProductExceptSelf(int[] numbers)
+    {
+        var result = Enumerable.Repeat(1, numbers.Length).ToArray();
+
+        for (int i = 1, j = numbers.Length - 2, leftProduct = 1, rightProduct = 1; i < numbers.Length; i++, j--)
+        {
+            leftProduct *= numbers[i - 1];
+            result[i] *= leftProduct;
+
+            rightProduct *= numbers[j + 1];
+            result[j] *= rightProduct;
         }
 
         return result;
