@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "49GroupAnagrams", "49GroupA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "347TopKFrequentElements", "347TopKFrequentElements\347TopKFrequentElements.csproj", "{2E0B64E2-A46B-43EC-8BF9-52DBF9E9C11A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "238ProductOfArrayExceptSelf", "238ProductOfArrayExceptSelf\238ProductOfArrayExceptSelf.csproj", "{63B500D5-9B34-4DF0-B8FB-8441A46C74D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2E0B64E2-A46B-43EC-8BF9-52DBF9E9C11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E0B64E2-A46B-43EC-8BF9-52DBF9E9C11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E0B64E2-A46B-43EC-8BF9-52DBF9E9C11A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B500D5-9B34-4DF0-B8FB-8441A46C74D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B500D5-9B34-4DF0-B8FB-8441A46C74D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B500D5-9B34-4DF0-B8FB-8441A46C74D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B500D5-9B34-4DF0-B8FB-8441A46C74D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
