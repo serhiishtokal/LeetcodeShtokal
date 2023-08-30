@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1TwoSum", "1TwoSum\1TwoSum.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "49GroupAnagrams", "49GroupAnagrams\49GroupAnagrams.csproj", "{54B37018-4E4B-459B-A44B-51D5E1B4380D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "347TopKFrequentElements", "347TopKFrequentElements\347TopKFrequentElements.csproj", "{2E0B64E2-A46B-43EC-8BF9-52DBF9E9C11A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "347TopKFrequentElements", "347TopKFrequentElements\347TopKFrequentElements.csproj", "{2E0B64E2-A46B-43EC-8BF9-52DBF9E9C11A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "238ProductOfArrayExceptSelf", "238ProductOfArrayExceptSelf\238ProductOfArrayExceptSelf.csproj", "{63B500D5-9B34-4DF0-B8FB-8441A46C74D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "238ProductOfArrayExceptSelf", "238ProductOfArrayExceptSelf\238ProductOfArrayExceptSelf.csproj", "{63B500D5-9B34-4DF0-B8FB-8441A46C74D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36ValidSudoku", "36ValidSudoku\36ValidSudoku.csproj", "{67A8CC1A-67D9-42D8-8310-4A3565DE68D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{63B500D5-9B34-4DF0-B8FB-8441A46C74D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63B500D5-9B34-4DF0-B8FB-8441A46C74D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63B500D5-9B34-4DF0-B8FB-8441A46C74D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A8CC1A-67D9-42D8-8310-4A3565DE68D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A8CC1A-67D9-42D8-8310-4A3565DE68D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A8CC1A-67D9-42D8-8310-4A3565DE68D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A8CC1A-67D9-42D8-8310-4A3565DE68D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
